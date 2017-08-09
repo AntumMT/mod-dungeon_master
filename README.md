@@ -6,6 +6,9 @@
 
 Dungeon Master mod extracted from *[mobs_monster][]* @ [Git commit c0aaf9f][ver.mobs_monster].
 
+[b]Mob description:[/b]
+- Spawning below -70 underground DM's have a tendency to hurl fire balls at unsuspecting players and can cause major damage, but get too close and he will switch to dogfight attack. Can drop mese or diamond when killed.
+
 
 ---
 ### **Dependencies:**
