@@ -4,7 +4,7 @@ local S = mobs.intllib
 
 -- Dungeon Master by PilzAdam
 
-mobs:register_mob("mobs_monster:dungeon_master", {
+mobs:register_mob("mobs:dungeon_master", {
 	type = "monster",
 	passive = false,
 	damage = 4,
@@ -14,7 +14,7 @@ mobs:register_mob("mobs_monster:dungeon_master", {
 	dogshoot_count2_max = 3, -- dogfight for 3 seconds
 	reach = 3,
 	shoot_interval = 2.5,
-	arrow = "mobs_monster:fireball",
+	arrow = "mobs:fireball",
 	shoot_offset = 1,
 	hp_min = 12,
 	hp_max = 35,
@@ -62,7 +62,7 @@ mobs:register_mob("mobs_monster:dungeon_master", {
 
 
 mobs:spawn({
-	name = "mobs_monster:dungeon_master",
+	name = "mobs:dungeon_master",
 	nodes = {"default:stone"},
 	max_light = 7,
 	chance = 7000,
@@ -71,14 +71,11 @@ mobs:spawn({
 })
 
 
-mobs:register_egg("mobs_monster:dungeon_master", S("Dungeon Master"), "fire_basic_flame.png", 1, true)
-
-
-mobs:alias_mob("mobs:dungeon_master", "mobs_monster:dungeon_master") -- compatibility
+mobs:register_egg("mobs:dungeon_master", S("Dungeon Master"), "fire_basic_flame.png", 1, true)
 
 
 -- fireball (weapon)
-mobs:register_arrow("mobs_monster:fireball", {
+mobs:register_arrow("mobs:fireball", {
 	visual = "sprite",
 	visual_size = {x = 1, y = 1},
 	textures = {"mobs_fireball.png"},
