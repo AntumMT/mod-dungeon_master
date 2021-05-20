@@ -1,3 +1,5 @@
 default
+fire
 mobs
 intllib?
+asm_spawneggs?
